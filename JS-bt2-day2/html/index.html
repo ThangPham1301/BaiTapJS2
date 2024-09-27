@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    
+    <title>Practice day 2</title>
+</head>
+<body>
+    <h1>
+        Học JavaScript tại Cybersoft thật đỉnh.
+    </h1>
+    <h2 style="font-weight: 400;">
+        Thay đổi giá trị của thuộc tính.
+        <br>
+        demo thay đổi giá trị của thuộc tính.
+    </h2>
+    <div class="light__attribute" style="display: flex; justify-content: start;align-items: end;">
+        <button id="btn__turn-off" class="btn__off" style="width: 90px; height: 20px;">
+            Turn off
+        </button>
+
+        <div class="img__container" style="width: 100px; height: 180px; position: relative;">
+            <img id="light__img-off" class="light__img" style="position: absolute;top: 0;left: 0;width: 100%; height: auto; " src="../img/pic_bulboff.gif" alt="">
+            
+            <img id="light__img-on" class="light__img" style="width: 100%;height: auto; z-index: 3; " src="../img/pic_bulbon.gif" alt="">
+        </div>
+        <button id="btn__turn-on" class="btn__on" style="width: 90px; height: 20px;">
+            Turn on
+        </button>
+    </div>
+    <div id="function" data-color="#97BAD9" style="display: none;  background-color: #97BAD9;"></div>
+
+<section id="input" style="padding-top: 100px; width: 300px;">
+    <h1>Ẩn hiện mật khẩu</h1>
+    <div class="input__container" style="position: relative;">
+        <input type="password" id="password" name="password" placeholder="Nhập mật khẩu của bạn" style="width: 100%;height: 25px; ;">
+        <button  id="Hide__Password" style="position: absolute; top: 5px;right: 45px;">Hide</button>
+        <button id="Show__Password" style="position: absolute; top:5px ; right: -5px;">Show</button>
+    </div>
+</section>
+
+    <script src="../js/BT1.js"></script>
+    <script src="../js/BT2.js"></script>
+</body>
+</html>
